@@ -10,31 +10,33 @@ body {
 }
 
 h1 {
-color:#186630;
+color:#2447F0;
 }
 
 h1#principal {
 text-align: center;
-background-color:#3AF271;
+background-color:#B972F0;
 }
 
 h2 {
-color: #31CC5F;    
+color:#4E12EF;    
 }
 
 .basico {
-color: #3AF271;
+color:#2C77FA;
+
 
 }
 
 .intermediario {
-color: rgb(247, 247, 40);
+color:#61C1F0;
+
 }
 
 .avancado {
-color: red;
+color:#B972F0;
 }
 
 .destaque {
-    background-color: rgb(207, 207, 141);
+    background-color: #B972F0;
 }
