@@ -11,27 +11,52 @@ html {
     font-size:1em ;
 }
 header {
-    background-color: rgb(158, , 158, 158);
+    background-color: rgb(158, 158, 158);
+    padding: 10px;
 }
 
 header > h1 {
     text-align: center;
+    font-size: 3em;
+      
+}
+
+h2 {
+    padding-top: 10px;
+   
 }
 
 menu ul {
     list-style-type: none;
     background-color: gray;
+
 }
 
 menu li {
-    background-color: rgb(75, 75, 75) ;
+    background-color: rgba(75, 75, 75, 0.281) ;
     color: white;
     display: inline-block;
     padding: 10px;
+}
+
+p {
+    line-height: 1.5em;
+    text-indent: 3px;
 }
 
 article {
     width: 600px;
     display: block;
     margin: auto;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+a {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    
 }
