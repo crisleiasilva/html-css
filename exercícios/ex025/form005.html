@@ -4,25 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        * {
+            margin:7px ;
+            padding-top: 5px;
+        }
+
+        body {
+            background-color: rgb(192, 192, 236);  
+        }
+
+        h1 {
+            color: rgb(52, 78, 224);
+            text-align: center;
+            text-decoration: underline;
+            font-size: border;
+        }
+
+        .sexo {
+            border: 1px solid black;
+            padding-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        .msg {
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        p :hover {
+            background-color: aqua;
+        }
+    </style>
 </head>
 <body>
    <h1>Testes de Formulário</h1> 
    <form action="cadastro.php" method="get" autocomplete="on">
-    <fieldset>
-        <legend>Sexo</legend>
+    <fieldset class="sexo">
+        <legend><strong>Sexo</strong></legend>
         <input type="radio" name="sexo" id="isxmas" value="M"><label for="isxmas">Masculino</label><br>
         <input type="radio" name="sexo" id="isxfem" value="F" checked><label for="isxfem">Feminino</label>
 
     </fieldset>
-    <fieldset>
-        <legend>Esportes Favoritos</legend>
+    <fieldset class="sexo">
+        <legend><strong>Esportes Favoritos</strong></legend>
         <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label><br>
         <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label><br>
         <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label><br>
         <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label><br>
     </fieldset>
 
-    <p>
+
+<fieldset class="sexo">
+        <legend><strong>Período da Atividade</strong></legend>
+        <input type="radio" name="periodo" id="iman" value="M"><label for="iman">Manhã</label><br>
+        <input type="radio" name="periodo" id="itar" value="T" checked><label for="itar">Tarde</label>
+        </fieldset>
+        <p>
+            <label for="imsg"><strong>Deixer aqui sua sugestão</strong></label><br>
+            <textarea  class="msg"  name="msg" id="imsg" cols="70" rows="10"></textarea>
+        </p>
+
+
+
+
+    <p class="botao">
         <input type="submit" value="Enviar">
        <input type="reset" value="Limpar">
     </p>
