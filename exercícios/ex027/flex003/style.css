@@ -1,0 +1,14 @@
+
+.conteiner {
+  background-color: rgb(157, 196, 235);
+
+  display: flex;
+  flex-flow: row wrap-reverse;
+}
+
+.item {
+  background-color: rgb(233, 84, 96);
+  border:1px solid black;
+  text-align: center;
+  flex: auto;
+}
