@@ -1,0 +1,16 @@
+
+.conteiner {
+  background-color: dodgerblue;
+  height: 300px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.item {
+  background-color: rgb(230, 65, 245);
+  border:1px solid black;
+  text-align: center;
+  
+}
