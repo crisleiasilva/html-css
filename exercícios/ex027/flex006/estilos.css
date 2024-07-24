@@ -1,0 +1,16 @@
+
+.conteiner {
+  background-color: hotpink;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-content:space-around ; /* funciona quando o flex-flow tem o atributo row wrap*/
+  height: 400px;
+}
+
+.item {
+  background-color: aquamarine;
+  border:1px solid black;
+  text-align: center;
+  padding: 40px;
+}
